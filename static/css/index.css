@@ -22,9 +22,8 @@
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400px;
   line-height: 1.428;
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
 }
 
 ::-webkit-scrollbar {
@@ -61,7 +60,7 @@ a {
 }
 
 .pd-y {
-  padding: 120px 0;
+  padding: 42px 0;
 }
 
 .container {
@@ -73,6 +72,36 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+section {
+  background-color: #f7f7f9;
+  margin-top: -2px;
+}
+
+.hover:hover,
+.wow.hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.hover:focus,
+.wow.hover {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+button {
+  transition: all 0.5s;
+}
+
+.disc::before {
+  content: "\2022";
+  color: #dacaca;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 /* end common styles */
@@ -96,7 +125,6 @@ header {
 .header__container__parhead__brand > a {
   height: 72px;
   font-size: 18px;
-  font-weight: 700;
   color: #6070ff;
   display: flex;
   justify-content: center;
@@ -122,7 +150,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 92px 24px 136px 24px;
-  border-bottom-left-radius: 65px;
+  border-bottom-left-radius: 73px;
 }
 
 .sectionone__heroimage > p,
@@ -154,6 +182,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .social__responsive {
@@ -161,5 +190,141 @@ header {
 }
 
 /* end sectionone */
+
+/* start content styles */
+
+.sectiontwo__container__items,
+.sectionthree__container__posts,
+.sectionfour__container__rows,
+.sectionfive__container__services {
+  flex-direction: column;
+  display: grid;
+  grid-row-gap: 13px;
+  border: 2px solid #ddd;
+  padding: 15px 15px 33px 15px;
+  border-radius: 19px;
+  background-color: #fff;
+  grid-template-rows: 0fr 1fr;
+}
+
+.sectionsix__container__skills {
+  flex-direction: column;
+  display: grid;
+  grid-row-gap: 13px;
+  padding: 15px 15px 33px 15px;
+  grid-template-rows: 0fr 1fr;
+}
+
+.sectionsix {
+  background-color: #fff;
+  border-top-right-radius: 73px;
+}
+
+.sectiontwo__container__items__item > h2,
+.sectionthree__container__posts__post > h2,
+.sectionfour__container__rows__row > h2,
+.sectionfive__container__services__service > h2,
+.sectionsix__container__skills__skill > h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.accordion > li {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ddd;
+}
+
+.first__ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.second__ul > li {
+  background-color: #ebebff;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: #6070ff;
+}
+
+.first__ul > li:nth-child(1) {
+  font-weight: bold;
+}
+
+.sectiontwo__container__items__item > p,
+.sectionthree__container__posts__post > p,
+.sectionfour__container__rows__row > p,
+.sectionfive__container__services__service > p,
+.sectionsix__container__skills__skill > p {
+  margin-bottom: 15px;
+}
+
+.second__ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  list-style-type: none;
+  padding: 3px 5px;
+}
+
+.sectiontwo__container__items__item > button,
+.sectionthree__container__posts__post > button,
+.sectionfour__container__rows__row > button,
+.sectionfive__container__services__service > button,
+.sectionsix__container__skills__skill > button.wow {
+  outline: 0;
+  padding: 13px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  color: #396df2;
+}
+
+.sectionsix__container__skills__skill > button {
+  color: #7f8cff;
+  margin-bottom: 15px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.order__1 {
+  order: 1;
+}
+
+.order__2 {
+  order: 2;
+}
+
+.accordion .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.accordion .content > .flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #f7f7f9;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+}
+
+.accordion .content > .flex > * {
+  margin-right: 10px;
+}
 
 /* end content styles */
