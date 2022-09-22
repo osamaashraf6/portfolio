@@ -82,6 +82,7 @@ a {
 /* start nav */
 header {
   background-color: #fff;
+
   /* z-index: 5; */
 }
 
@@ -110,9 +111,6 @@ header {
 /* end nav */
 
 /* start sectionone */
-
-.sectionone {
-}
 
 .overlay {
   background-image: url(../imgs/bg-mobile.png);
