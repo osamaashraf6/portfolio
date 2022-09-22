@@ -24,7 +24,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400px;
   line-height: 1.428;
-  color: #302e4d;
+  background-color: #e5e5e5;
 }
 
 ::-webkit-scrollbar {
@@ -37,7 +37,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   height: 51.2413%;
-  background-color: #fbce4c;
+  background-color: #6070ff;
   border-radius: 0 0 10px 10px;
 }
 
@@ -65,8 +65,8 @@ a {
 }
 
 .container {
-  width: 80%;
   margin: 0 auto;
+  padding: 0 28px 0 24px;
 }
 
 .responsive {
@@ -80,51 +80,76 @@ a {
 /* start content styles */
 
 /* start nav */
-.nav {
+header {
   background-color: #fff;
+  /* z-index: 5; */
 }
 
-.nav__container__parnav {
+.header__container__parhead {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.nav__container__parnav__brand > a {
+.header__container__parhead__brand > a {
   height: 72px;
-  font-size: 30px;
-  color: #302e4d;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header__container__parhead__bars__responsive {
+  width: 18px;
+  height: 12px;
 }
 
 /* end nav */
 
 /* start sectionone */
+
+.sectionone {
+}
+
 .overlay {
-  background-image: url("../imgs/Header\ bg.png");
+  background-image: url(../imgs/bg-mobile.png);
   background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  height: 95vh;
-  width: 85%;
+  background-repeat: no-repeat;
+  background-size: contain;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 92px 24px 136px 24px;
+  border-bottom-left-radius: 65px;
 }
 
 .sectionone__heroimage > p,
-.sectionone__heroimage > h2 {
+.sectionone__heroimage > h1 {
   margin-bottom: 15px;
 }
 
-.sectionone__heroimage > span {
-  color: lightblue;
-  display: block;
+.sectionone__heroimage > h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.sectionone__heroimage > p {
+  font-size: 20px;
+  color: #344563;
+}
+
+.sectionone__heroimage > button {
+  color: #7f8cff;
   margin-bottom: 15px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-weight: bold;
 }
 
 .social {
