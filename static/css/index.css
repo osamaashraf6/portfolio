@@ -55,10 +55,6 @@ a {
   text-decoration: none;
 }
 
-.display {
-  display: none;
-}
-
 .pd-y {
   padding: 42px 0;
 }
@@ -80,13 +76,13 @@ section {
 }
 
 .hover:hover,
-.wow.hover {
+.wow.hover:hover {
   background-color: #6070ff;
   color: #fff;
 }
 
 .hover:focus,
-.wow.hover {
+.wow.hover:focus {
   background-color: #2230d2;
   color: #fff;
 }
@@ -111,8 +107,6 @@ button {
 /* start nav */
 header {
   background-color: #fff;
-
-  /* z-index: 5; */
 }
 
 .header__container__parhead {
@@ -191,8 +185,6 @@ header {
 
 /* end sectionone */
 
-/* start content styles */
-
 .sectiontwo__container__items,
 .sectionthree__container__posts,
 .sectionfour__container__rows,
@@ -215,11 +207,6 @@ header {
   grid-template-rows: 0fr 1fr;
 }
 
-.sectionsix {
-  background-color: #fff;
-  border-top-right-radius: 73px;
-}
-
 .sectiontwo__container__items__item > h2,
 .sectionthree__container__posts__post > h2,
 .sectionfour__container__rows__row > h2,
@@ -227,6 +214,33 @@ header {
 .sectionsix__container__skills__skill > h2 {
   margin-bottom: 15px;
   font-size: 32px;
+}
+
+.sectiontwo__container__items__item > p,
+.sectionthree__container__posts__post > p,
+.sectionfour__container__rows__row > p,
+.sectionfive__container__services__service > p,
+.sectionsix__container__skills__skill > p {
+  margin-bottom: 15px;
+}
+
+.sectiontwo__container__items__item > button,
+.sectionthree__container__posts__post > button,
+.sectionfour__container__rows__row > button,
+.sectionfive__container__services__service > button,
+.sectionsix__container__skills__skill > button {
+  outline: 0;
+  padding: 13px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  color: #396df2;
+  font-size: 17px;
+}
+
+.sectionsix {
+  background-color: #fff;
+  border-top-right-radius: 73px;
 }
 
 .accordion > li {
@@ -252,20 +266,12 @@ header {
   background-color: #ebebff;
   padding: 3px 5px;
   border-radius: 5px;
-  margin-right: 15px;
+  margin: 3px;
   color: #6070ff;
 }
 
 .first__ul > li:nth-child(1) {
   font-weight: bold;
-}
-
-.sectiontwo__container__items__item > p,
-.sectionthree__container__posts__post > p,
-.sectionfour__container__rows__row > p,
-.sectionfive__container__services__service > p,
-.sectionsix__container__skills__skill > p {
-  margin-bottom: 15px;
 }
 
 .second__ul {
@@ -274,26 +280,12 @@ header {
   margin-bottom: 30px;
   list-style-type: none;
   padding: 3px 5px;
+  flex-wrap: wrap;
 }
 
-.sectiontwo__container__items__item > button,
-.sectionthree__container__posts__post > button,
-.sectionfour__container__rows__row > button,
-.sectionfive__container__services__service > button,
-.sectionsix__container__skills__skill > button.wow {
-  outline: 0;
-  padding: 13px;
-  border-radius: 5px;
-  background-color: #fff;
-  border: 1px solid #396df2;
-  color: #396df2;
-}
-
-.sectionsix__container__skills__skill > button {
+.sectionsix__container__skills__skill > h3 {
   color: #7f8cff;
   margin-bottom: 15px;
-  border: 0;
-  outline: 0;
   background-color: transparent;
   font-weight: bold;
 }
