@@ -173,12 +173,11 @@ header {
 }
 
 .social {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin-bottom: 15px;
 }
-
+.social > li {
+  float: left;
+}
 .social__responsive {
   margin-right: 15px;
 }
@@ -263,6 +262,7 @@ header {
 }
 
 .second__ul > li {
+  display: inline-block;
   background-color: #ebebff;
   padding: 3px 5px;
   border-radius: 5px;
@@ -275,12 +275,14 @@ header {
 }
 
 .second__ul {
-  display: flex;
-  justify-content: flex-start;
+  float: left;
   margin-bottom: 30px;
   list-style-type: none;
   padding: 3px 5px;
-  flex-wrap: wrap;
+}
+
+.clear {
+  clear: both;
 }
 
 .sectionsix__container__skills__skill > h3 {
