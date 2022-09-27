@@ -331,10 +331,10 @@ header {
 .footer {
   background-image: url(../imgs/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: #6070ff;
   border-top-left-radius: 73px;
-  background-position: 30px -34px;
+  background-position: 81px -2px;
   padding: 123px 0 42px 0;
 }
 
@@ -370,6 +370,7 @@ header {
   width: 100%;
   padding: 10px 15px;
   margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
 .form__control > input[type="text"]::placeholder,
