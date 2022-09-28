@@ -98,7 +98,7 @@ button,
   font-weight: bold;
   display: inline-block;
   width: 1em;
-  margin-left: -1em;
+  margin-left: 0;
 }
 
 /* end common styles */
@@ -126,9 +126,62 @@ header {
   align-items: center;
 }
 
-.header__container__parhead__bars__responsive {
+.header__container__parhead__nav__ul {
+  display: flex;
+}
+
+.header__container__parhead__nav__ul__responsive {
   width: 18px;
   height: 12px;
+}
+
+.first__ul {
+  display: flex;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.first__ul > li {
+  margin: 6px 10px 10px 0;
+}
+
+.second__ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.second__ul > li {
+  background-color: #ebebff;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin: 3px;
+  color: #6070ff;
+}
+
+.header__container__parhead__nav__ul > .iwq {
+  display: none;
+}
+
+.accordion > li {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ddd;
+}
+
+.header__container__parhead__nav__ul > .iwq > li {
+  margin-right: 10px;
+}
+
+.header__container__parhead__nav__ul > .iwq > li > a {
+  color: #6070ff;
 }
 
 /* end nav */
@@ -139,7 +192,7 @@ header {
   background-image: url(../imgs/bg-mobile.png);
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -175,10 +228,8 @@ header {
 
 .social {
   margin-bottom: 15px;
-}
-
-.social > li {
-  float: left;
+  display: flex;
+  align-items: center;
 }
 
 .social__responsive {
@@ -245,47 +296,8 @@ header {
   border-top-right-radius: 73px;
 }
 
-.accordion > li {
-  border: 0;
-  outline: 0;
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 16px;
-  font-size: 20px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid #ddd;
-}
-
-.first__ul {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.second__ul > li {
-  display: inline-block;
-  background-color: #ebebff;
-  padding: 3px 5px;
-  border-radius: 5px;
-  margin: 3px;
-  color: #6070ff;
-}
-
 .first__ul > li:nth-child(1) {
   font-weight: bold;
-}
-
-.second__ul {
-  float: left;
-  margin-bottom: 30px;
-  list-style-type: none;
-  padding: 3px 5px;
-}
-
-.clear {
-  clear: both;
 }
 
 .sectionsix__container__skills__skill > h3 {
@@ -293,14 +305,6 @@ header {
   margin-bottom: 15px;
   background-color: transparent;
   font-weight: bold;
-}
-
-.order__1 {
-  order: 1;
-}
-
-.order__2 {
-  order: 2;
 }
 
 .accordion .content {
@@ -402,3 +406,83 @@ header {
 }
 
 /* end content styles */
+
+/* start media query styles */
+@media screen and (min-width: 700px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .header__container__parhead__nav__ul > .iwq {
+    display: flex;
+  }
+
+  .header__container__parhead__nav__ul__responsive {
+    width: 0;
+    height: 0;
+  }
+
+  .overlay {
+    background-image: url(../imgs/Header\ 2x.png);
+  }
+
+  .sectiontwo__container__items,
+  .sectionthree__container__posts,
+  .sectionfour__container__rows,
+  .sectionfive__container__services {
+    flex-direction: row;
+    display: grid;
+    grid-column-gap: 30px;
+    border: 2px solid #ddd;
+    border-radius: 19px;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 452px;
+    padding: 21px;
+  }
+
+  .sectionsix__container__skills {
+    flex-direction: row;
+    display: grid;
+    grid-column-gap: 13px;
+    padding: 15px 15px 33px 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 481px;
+  }
+
+  .sectiontwo__container__items__item__responsive,
+  .sectionthree__container__posts__post__responsive,
+  .sectionfour__container__rows__row__responsive,
+  .sectionfive__container__services__service__responsive {
+    height: 100%;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    border-radius: 9px;
+    padding: 20px;
+  }
+
+  .sectiontwo__container__items__item__responsive__respo,
+  .sectionthree__container__posts__post__responsive__respo,
+  .sectionfour__container__rows__row__responsive__respo,
+  .sectionfive__container__services__service__responsive__respo {
+    border-radius: 9px;
+  }
+
+  .second__ul {
+    margin-bottom: 42px;
+  }
+
+  .footer__container__parfoot > form {
+    width: 50%;
+  }
+
+  .order__1 {
+    order: 1;
+  }
+
+  .order__2 {
+    order: 2;
+  }
+}
+
+/* end media query styles */
