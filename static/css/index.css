@@ -87,7 +87,8 @@ section {
   color: #fff;
 }
 
-button {
+button,
+.form__control > input[type="submit"] {
   transition: all 0.5s;
 }
 
@@ -173,10 +174,11 @@ header {
 }
 
 .social {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin-bottom: 15px;
+}
+
+.social > li {
+  float: left;
 }
 
 .social__responsive {
@@ -263,6 +265,7 @@ header {
 }
 
 .second__ul > li {
+  display: inline-block;
   background-color: #ebebff;
   padding: 3px 5px;
   border-radius: 5px;
@@ -275,12 +278,14 @@ header {
 }
 
 .second__ul {
-  display: flex;
-  justify-content: flex-start;
+  float: left;
   margin-bottom: 30px;
   list-style-type: none;
   padding: 3px 5px;
-  flex-wrap: wrap;
+}
+
+.clear {
+  clear: both;
 }
 
 .sectionsix__container__skills__skill > h3 {
@@ -317,6 +322,83 @@ header {
 
 .accordion .content > .flex > * {
   margin-right: 10px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.footer {
+  background-image: url(../imgs/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6070ff;
+  border-top-left-radius: 73px;
+  background-position: 81px -2px;
+  padding: 123px 0 42px 0;
+}
+
+.footer__container__parfoot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container__parfoot > form {
+  width: 100%;
+}
+
+.footer__container__parfoot > h3 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer__container__parfoot > p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.form__control > input[type="text"],
+.form__control > input[type="email"],
+.form__control > textarea {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form__control > input[type="text"]::placeholder,
+.form__control > input[type="email"]::placeholder,
+.form__control > textarea::placeholder {
+  color: #b3bac5;
+}
+
+.form__control > input[type="submit"] {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 17px;
+}
+
+.form__control > input[type="submit"]:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.form__control > input[type="submit"]:focus {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 /* end content styles */

@@ -11,8 +11,12 @@
 - CSS
 - Flexbox
 - Figma
+- Formspree service
+
+
 
 ## Live Demo
+
 
 [Portfolio](https://github.com/osamaashraf6/portfolio/tree/portfolio)
 
