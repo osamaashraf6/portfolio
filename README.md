@@ -2,8 +2,7 @@
 
 # Portfolio.
 
-> This is my Portfolio which express me.
-
+> In this branch (desktop_version) I used the media query to build (RWD) responsive web design which creates UIs adaptable to different screen sizes using media queries.
 
 ## Built With
 
@@ -12,6 +11,7 @@
 - Flexbox
 - Figma
 - Formspree service
+- (RWD) responsive web design using media query
 
 
 
