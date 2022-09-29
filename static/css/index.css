@@ -196,7 +196,7 @@ header {
   background-image: url(../imgs/bg-mobile.png);
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -412,7 +412,7 @@ header {
 /* end content styles */
 
 /* start media query styles */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
     width: 90%;
@@ -457,7 +457,7 @@ header {
     display: grid;
     grid-column-gap: 39px;
     padding: 15px 15px 33px 15px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 481px;
   }
 
