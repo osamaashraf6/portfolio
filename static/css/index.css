@@ -125,6 +125,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: font-size .5s;
+}
+
+.header__container__parhead__brand > a:hover {
+  font-size: 30px;
 }
 
 .header__container__parhead__nav__ul {
@@ -453,6 +458,11 @@ header {
 
   .header__container__parhead__nav__ul > .iwq {
     display: flex;
+  }
+
+  .header__container__parhead__nav__ul > .iwq li:hover {
+    border-bottom: 1px solid #172b4d;
+    transition: all .5s linear;
   }
 
   .header__container__parhead__nav__ul__responsive {
