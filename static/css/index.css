@@ -256,6 +256,39 @@ header {
   grid-template-rows: 0fr 1fr;
 }
 
+/* start animation and transition */
+.sectiontwo__container__items__item__responsive,
+.sectionthree__container__posts__post__responsive,
+.sectionfour__container__rows__row__responsive,
+.sectionfive__container__services__service__responsive {
+  overflow: hidden;
+}
+
+.sectiontwo__container__items__item__responsive__respo,
+.sectionthree__container__posts__post__responsive__respo,
+.sectionfour__container__rows__row__responsive__respo,
+.sectionfive__container__services__service__responsive__respo {
+  transition: transform 0.5s ease-in-out;
+}
+
+.sectiontwo__container__items__item__responsive__respo:hover,
+.sectionthree__container__posts__post__responsive__respo:hover,
+.sectionfour__container__rows__row__responsive__respo:hover,
+.sectionfive__container__services__service__responsive__respo:hover {
+  transform: scale(1.1);
+}
+
+/* animation: imageport 0.5s;
+@keyframes imageport {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(0.5);
+  }
+} */
+
+/* end animation and transition */
 .sectionsix__container__skills {
   flex-direction: column;
   display: grid;
