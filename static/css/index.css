@@ -423,8 +423,13 @@ header {
     height: 0;
   }
 
+  .sectionone {
+    height: 916px;
+  }
+
   .overlay {
     background-image: url(../imgs/Header\ 2x.png);
+    height: 916px;
   }
 
   .sectiontwo__container__items,
@@ -482,6 +487,33 @@ header {
 
   .order__2 {
     order: 2;
+  }
+
+  .footer {
+    background-image: url(../imgs/contact\ form\ background\ shapes@2x.png);
+  }
+
+  .footer__container__parfoot > p {
+    width: 30%;
+  }
+
+  .accordion .content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .accordion .content > .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #f7f7f9;
+    border-radius: 5px;
+    padding: 19px;
+    font-size: 15px;
+    flex-direction: column;
+    margin-right: 11px;
+    width: 100px;
   }
 }
 
