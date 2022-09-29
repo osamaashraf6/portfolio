@@ -94,11 +94,12 @@ button,
 
 .disc::before {
   content: "\2022";
-  color: #dacaca;
+  color: #c1c7d0;
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: 0;
+  font-size: 23px;
 }
 
 /* end common styles */
@@ -143,6 +144,9 @@ header {
 
 .first__ul > li {
   margin: 6px 10px 10px 0;
+  display: flex;
+  align-items: center;
+  color: #6b778c;
 }
 
 .second__ul {
@@ -192,7 +196,7 @@ header {
   background-image: url(../imgs/bg-mobile.png);
   background-color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -298,6 +302,7 @@ header {
 
 .first__ul > li:nth-child(1) {
   font-weight: bold;
+  color: #344563 !important;
 }
 
 .sectionsix__container__skills__skill > h3 {
@@ -335,10 +340,9 @@ header {
 .footer {
   background-image: url(../imgs/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: #6070ff;
   border-top-left-radius: 73px;
-  background-position: 81px -2px;
   padding: 123px 0 42px 0;
 }
 
@@ -430,6 +434,7 @@ header {
   .overlay {
     background-image: url(../imgs/Header\ 2x.png);
     height: 916px;
+    background-size: contain;
   }
 
   .sectiontwo__container__items,
@@ -450,7 +455,7 @@ header {
   .sectionsix__container__skills {
     flex-direction: row;
     display: grid;
-    grid-column-gap: 13px;
+    grid-column-gap: 39px;
     padding: 15px 15px 33px 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 481px;
@@ -491,10 +496,8 @@ header {
 
   .footer {
     background-image: url(../imgs/contact\ form\ background\ shapes@2x.png);
-  }
-
-  .footer__container__parfoot > p {
-    width: 30%;
+    background-size: contain;
+    background-position: 9px 5px;
   }
 
   .accordion .content {
@@ -505,11 +508,11 @@ header {
 
   .accordion .content > .flex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 15px;
     background-color: #f7f7f9;
     border-radius: 5px;
-    padding: 19px;
+    padding: 10px;
     font-size: 15px;
     flex-direction: column;
     margin-right: 11px;
