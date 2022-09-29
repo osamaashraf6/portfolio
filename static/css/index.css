@@ -219,11 +219,35 @@ header {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
+  animation: hiddenH1 4s;
+}
+
+@keyframes hiddenH1 {
+  from {
+    margin-left: -645px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
 }
 
 .sectionone__heroimage > p {
   font-size: 20px;
   color: #344563;
+  animation: hiddenP 4s;
+}
+
+@keyframes hiddenP {
+  from {
+    margin-right: -645px;
+    opacity: 0;
+  }
+  to {
+    margin-right: 0;
+    opacity: 1;
+  }
 }
 
 .sectionone__heroimage > button {
