@@ -125,6 +125,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: font-size 0.5s;
+}
+
+.header__container__parhead__brand > a:hover {
+  font-size: 30px;
 }
 
 .header__container__parhead__nav__ul {
@@ -214,11 +219,37 @@ header {
   font-weight: 700;
   font-size: 40px;
   color: #172b4d;
+  animation: hiddenH1 4s;
+}
+
+@keyframes hiddenH1 {
+  from {
+    margin-left: -645px;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
 }
 
 .sectionone__heroimage > p {
   font-size: 20px;
   color: #344563;
+  animation: hiddenP 4s;
+}
+
+@keyframes hiddenP {
+  from {
+    margin-right: -645px;
+    opacity: 0;
+  }
+
+  to {
+    margin-right: 0;
+    opacity: 1;
+  }
 }
 
 .sectionone__heroimage > button {
@@ -256,6 +287,39 @@ header {
   grid-template-rows: 0fr 1fr;
 }
 
+/* start animation and transition */
+.sectiontwo__container__items__item__responsive,
+.sectionthree__container__posts__post__responsive,
+.sectionfour__container__rows__row__responsive,
+.sectionfive__container__services__service__responsive {
+  overflow: hidden;
+}
+
+.sectiontwo__container__items__item__responsive__respo,
+.sectionthree__container__posts__post__responsive__respo,
+.sectionfour__container__rows__row__responsive__respo,
+.sectionfive__container__services__service__responsive__respo {
+  transition: transform 0.5s ease-in-out;
+}
+
+.sectiontwo__container__items__item__responsive__respo:hover,
+.sectionthree__container__posts__post__responsive__respo:hover,
+.sectionfour__container__rows__row__responsive__respo:hover,
+.sectionfive__container__services__service__responsive__respo:hover {
+  transform: scale(1.1);
+}
+
+/* animation: imageport 0.5s;
+@keyframes imageport {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(0.5);
+  }
+} */
+
+/* end animation and transition */
 .sectionsix__container__skills {
   flex-direction: column;
   display: grid;
@@ -422,6 +486,11 @@ header {
     display: flex;
   }
 
+  .header__container__parhead__nav__ul > .iwq li:hover {
+    border-bottom: 1px solid #172b4d;
+    transition: all 0.5s linear;
+  }
+
   .header__container__parhead__nav__ul__responsive {
     width: 0;
     height: 0;
@@ -484,6 +553,18 @@ header {
 
   .footer__container__parfoot > form {
     width: 50%;
+    animation: form 2s;
+    animation-delay: 5s;
+  }
+
+  @keyframes form {
+    from {
+      margin-left: -2197px;
+    }
+
+    to {
+      margin-left: 0;
+    }
   }
 
   .order__1 {
