@@ -2,7 +2,7 @@
 
 # Portfolio.
 
-> In this branch (desktop_version) I used the media query to build (RWD) responsive web design which creates UIs adaptable to different screen sizes using media queries.
+> In this branch (animation_transition) I used the Animation and transition to build attractive web design I did it with my collaborators and you can check the commits of my collaborators at this branch.
 
 ## Built With
 
@@ -12,6 +12,7 @@
 - Figma
 - Formspree service
 - (RWD) responsive web design using media query
+- Animation and Transition
 
 
 
@@ -33,12 +34,21 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
+👤 **Author2**
+
+- GitHub: [Mukama Steven](https://github.com/stevenmukama)
+- LinkedIn: [Mukama Steven](https://www.linkedin.com/in/steven-mukama-b83067197/)
+
+👤 **Author3**
+
+- GitHub: [soe Sandar win](https://github.com/soesandarwin2201)
+- LinkedIn: [soe Sandar win](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
 
 
 ## 🤝 Contributing
