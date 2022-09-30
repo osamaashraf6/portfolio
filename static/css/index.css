@@ -21,7 +21,7 @@
 
 body {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.428;
   background-color: #f7f7f9;
 }
@@ -88,12 +88,12 @@ section {
 }
 
 button,
-.form__control > input[type='submit'] {
+.form__control > input[type="submit"] {
   transition: all 0.5s;
 }
 
 .disc::before {
-  content: '\2022';
+  content: "\2022";
   color: #c1c7d0;
   font-weight: bold;
   display: inline-block;
@@ -433,8 +433,8 @@ header {
   margin-bottom: 40px;
 }
 
-.form__control > input[type='text'],
-.form__control > input[type='email'],
+.form__control > input[type="text"],
+.form__control > input[type="email"],
 .form__control > textarea {
   border: 0;
   outline: 0;
@@ -442,16 +442,16 @@ header {
   width: 100%;
   padding: 10px 15px;
   margin-bottom: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.form__control > input[type='text']::placeholder,
-.form__control > input[type='email']::placeholder,
+.form__control > input[type="text"]::placeholder,
+.form__control > input[type="email"]::placeholder,
 .form__control > textarea::placeholder {
   color: #b3bac5;
 }
 
-.form__control > input[type='submit'] {
+.form__control > input[type="submit"] {
   border: 0;
   outline: 0;
   border-radius: 5px;
@@ -462,13 +462,13 @@ header {
   font-size: 17px;
 }
 
-.form__control > input[type='submit']:hover {
+.form__control > input[type="submit"]:hover {
   border: 1px solid #fff;
   color: #fff;
   background-color: #6070ff;
 }
 
-.form__control > input[type='submit']:focus {
+.form__control > input[type="submit"]:focus {
   background-color: #2230d2;
   color: #fff;
 }
@@ -554,6 +554,7 @@ header {
   .footer__container__parfoot > form {
     width: 50%;
   }
+
 
   .order__1 {
     order: 1;
