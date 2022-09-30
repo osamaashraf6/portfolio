@@ -553,7 +553,19 @@ header {
 
   .footer__container__parfoot > form {
     width: 50%;
+    animation: form 2s;
+    animation-delay: 5s;
   }
+  
+  @keyframes form {
+    from {
+      margin-left: -2197px;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+
 
 
   .order__1 {
