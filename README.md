@@ -2,7 +2,7 @@
 
 # Portfolio.
 
-> In this branch (github_pages) I used GitHUB that allows you to host (deploy) a webpage from your repository.
+> In this branch (accessibility) I made the accessibility well in my portfolio. Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web. Web accessibility is essential for people with disabilities and useful for everyone in a variety of situations (e.g. people using a slow internet connection, older people with changing abilities due to ageing)..
 
 ## Built With
 
@@ -13,6 +13,8 @@
 - Formspree service
 - (RWD) responsive web design using media query
 - Animation and Transition
+- Use gitHub pages
+- Check the accessibility for this portfolio
 
 
 
