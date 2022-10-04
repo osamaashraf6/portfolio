@@ -102,6 +102,10 @@ button,
   font-size: 23px;
 }
 
+label {
+  display: none;
+}
+
 /* end common styles */
 
 /* start content styles */
@@ -599,6 +603,10 @@ header {
     flex-direction: column;
     margin-right: 11px;
     width: 100px;
+  }
+
+  label {
+    display: none;
   }
 }
 
