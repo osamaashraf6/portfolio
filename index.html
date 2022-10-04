@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="this is my awesome portfolio powered by Osama Ashraf"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- start fonts -->
@@ -13,7 +17,7 @@
     />
     <!-- end fonts -->
     <link rel="stylesheet" href="./static/css/index.css" />
-    <title>Portfolio</title>
+    <title>Osama's Portfolio</title>
   </head>
   <body>
     <!-- start nav -->
@@ -35,11 +39,13 @@
                   />
                 </div>
               </li>
-              <ul class="iwq">
-                <li><a href="#">Portoflio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
+              <li>
+                <ul class="iwq">
+                  <li><a href="#">Portoflio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -333,23 +339,25 @@
                     ><img src="./static/imgs/down.png" alt="down"
                   /></span>
                 </li>
-                <ul class="content">
-                  <li class="flex">
-                    <img src="./static/imgs/js.png" alt="javaScript" /><span
-                      >javaScript</span
-                    >
-                  </li>
-                  <li class="flex">
-                    <img src="./static/imgs/html.png" alt="javaScript" /><span
-                      >HTML</span
-                    >
-                  </li>
-                  <li class="flex">
-                    <img src="./static/imgs/css.png" alt="javaScript" /><span
-                      >CSS</span
-                    >
-                  </li>
-                </ul>
+                <li>
+                  <ul class="content">
+                    <li class="flex">
+                      <img src="./static/imgs/js.png" alt="javaScript" /><span
+                        >javaScript</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/html.png" alt="html" /><span
+                        >HTML</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/css.png" alt="css" /><span
+                        >CSS</span
+                      >
+                    </li>
+                  </ul>
+                </li>
 
                 <li>
                   Frameworks<span class="icon"
@@ -382,6 +390,7 @@
             </p>
             <form action="https://formspree.io/f/mvoyalje" method="post">
               <div class="form__control">
+                <label for="name">Name</label>
                 <input
                   type="text"
                   placeholder="Name"
@@ -393,6 +402,7 @@
                 />
               </div>
               <div class="form__control">
+                <label for="email">name@example.com</label>
                 <input
                   type="email"
                   placeholder="name@example.com"
@@ -403,6 +413,7 @@
                 />
               </div>
               <div class="form__control">
+                <label for="textarea">Write your message here</label>
                 <textarea
                   id=""
                   cols="30"

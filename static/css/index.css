@@ -36,7 +36,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   height: 51.2413%;
-  background-color: #6070ff;
+  background-color: hsl(242 88% 56% / 0.8);
   border-radius: 0 0 10px 10px;
 }
 
@@ -56,7 +56,7 @@ a {
 }
 
 .pd-y {
-  padding: 42px 0;
+  padding: 100px 0;
 }
 
 .container {
@@ -77,7 +77,7 @@ section {
 
 .hover:hover,
 .wow.hover:hover {
-  background-color: #6070ff;
+  background-color: hsl(242 88% 56% / 0.8);
   color: #fff;
 }
 
@@ -102,6 +102,10 @@ button,
   font-size: 23px;
 }
 
+label {
+  display: none;
+}
+
 /* end common styles */
 
 /* start content styles */
@@ -121,7 +125,7 @@ header {
 .header__container__parhead__brand > a {
   height: 72px;
   font-size: 18px;
-  color: #6070ff;
+  color: hsl(242 88% 56% / 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,10 +169,10 @@ header {
   padding: 3px 5px;
   border-radius: 5px;
   margin: 3px;
-  color: #6070ff;
+  color: hsl(242 88% 56% / 0.8);
 }
 
-.header__container__parhead__nav__ul > .iwq {
+.header__container__parhead__nav__ul > li > .iwq {
   display: none;
 }
 
@@ -185,12 +189,17 @@ header {
   border-bottom: 2px solid #ddd;
 }
 
-.header__container__parhead__nav__ul > .iwq > li {
-  margin-right: 10px;
+.first__ul > li:nth-child(1) {
+  font-weight: bold;
+  color: #344563 !important;
 }
 
-.header__container__parhead__nav__ul > .iwq > li > a {
-  color: #6070ff;
+.header__container__parhead__nav__ul > li > .iwq > li {
+  margin-right: 15px;
+}
+
+.header__container__parhead__nav__ul > li > .iwq > li > a {
+  color: hsl(242 88% 56% / 0.8);
 }
 
 /* end nav */
@@ -364,16 +373,12 @@ header {
   border-top-right-radius: 73px;
 }
 
-.first__ul > li:nth-child(1) {
-  font-weight: bold;
-  color: #344563 !important;
-}
-
 .sectionsix__container__skills__skill > h3 {
-  color: #7f8cff;
+  color: hsl(242 88% 56% / 0.8);
   margin-bottom: 15px;
   background-color: transparent;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .accordion .content {
@@ -405,7 +410,7 @@ header {
   background-image: url(../imgs/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #6070ff;
+  background-color: hsl(242 88% 56% / 0.8);
   border-top-left-radius: 73px;
   padding: 123px 0 42px 0;
 }
@@ -457,7 +462,7 @@ header {
   border-radius: 5px;
   padding: 10px 15px;
   margin-bottom: 15px;
-  color: #6070ff;
+  color: hsl(242 88% 56% / 0.8);
   background-color: #fff;
   font-size: 17px;
 }
@@ -465,7 +470,7 @@ header {
 .form__control > input[type="submit"]:hover {
   border: 1px solid #fff;
   color: #fff;
-  background-color: #6070ff;
+  background-color: hsl(242 88% 56% / 0.8);
 }
 
 .form__control > input[type="submit"]:focus {
@@ -482,11 +487,11 @@ header {
     width: 90%;
   }
 
-  .header__container__parhead__nav__ul > .iwq {
+  .header__container__parhead__nav__ul > li > .iwq {
     display: flex;
   }
 
-  .header__container__parhead__nav__ul > .iwq li:hover {
+  .header__container__parhead__nav__ul > li > .iwq li:hover {
     border-bottom: 1px solid #172b4d;
     transition: all 0.5s linear;
   }
@@ -598,6 +603,10 @@ header {
     flex-direction: column;
     margin-right: 11px;
     width: 100px;
+  }
+
+  label {
+    display: none;
   }
 }
 
