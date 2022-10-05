@@ -2,15 +2,16 @@
 
 # Portfolio.
 
-> This is my Portfolio which express me.
+> This is Portfolio we did some changes with my collaborator .
+>We replaced some lists which used flexbox with float position .
 
 
 ## Built With
 
 - HTML
 - CSS
-- Flexbox
-- Figma
+- Float
+
 
 ## Live Demo 
 
@@ -29,12 +30,16 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author**
+👤 **Author 1**
 
 - GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
+👤 **Author 2**
+
+- GitHub: [Soesandarwin](https://github.com/soesandarwin2201)
+- LinkedIn: [Soesandarwin](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
 
 
 ## 🤝 Contributing
