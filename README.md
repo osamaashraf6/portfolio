@@ -12,9 +12,9 @@
 - Flexbox
 - Figma
 
-## Live Demo (if available)
+## Live Demo 
 
-[Portfolio](https://github.com/osamaashraf6/portfolio/tree/portfolio)
+[Portfolio](https://osamaashraf6.github.io/portfolio/)
 
 
 ## Getting Started
