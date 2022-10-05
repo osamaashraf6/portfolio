@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="this is my awesome portfolio powered by Osama Ashraf"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- start fonts -->
@@ -13,7 +17,7 @@
     />
     <!-- end fonts -->
     <link rel="stylesheet" href="./static/css/index.css" />
-    <title>Portfolio</title>
+    <title>Osama's Portfolio</title>
   </head>
   <body>
     <!-- start nav -->
@@ -24,14 +28,23 @@
             <a href="#">My Logo</a>
           </div>
 
-          <nav class="header__container__parhead__bars">
-            <ul class="header__container__parhead__bars__responsive">
+          <nav class="header__container__parhead__nav">
+            <ul class="header__container__parhead__nav__ul">
               <li>
-                <img
-                  src="./static/imgs/Union@2x.png"
-                  alt="Union@2x"
-                  class="responsive header__container__parhead__bars__responsive__respo"
-                />
+                <div class="header__container__parhead__nav__ul__responsive">
+                  <img
+                    src="./static/imgs/Union@2x.png"
+                    alt="Union@2x"
+                    class="responsive header__container__parhead__nav__ul__responsive__respo"
+                  />
+                </div>
+              </li>
+              <li>
+                <ul class="iwq">
+                  <li><a href="#">Portoflio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
               </li>
             </ul>
           </nav>
@@ -103,7 +116,6 @@
                     />
                   </a>
                 </li>
-                <li class="clear"></li>
               </ul>
             </div>
           </div>
@@ -148,7 +160,7 @@
         <div class="sectionthree pd-y" id="sectionthree">
           <div class="container">
             <div class="sectionthree__container__posts">
-              <div class="sectionthree__container__posts__post">
+              <div class="sectionthree__container__posts__post order__2">
                 <div class="sectionthree__container__posts__post__responsive">
                   <img
                     src="./static/imgs/four.png"
@@ -157,11 +169,8 @@
                   />
                 </div>
               </div>
-              <div class="sectionthree__container__posts__post">
-                <h2>
-                  Multi-Post <br />
-                  Stories
-                </h2>
+              <div class="sectionthree__container__posts__post order__1">
+                <h2>Multi-Post Stories</h2>
                 <ul class="first__ul">
                   <li>FACEBOOK</li>
                   <li class="disc">Full Stack Dev</li>
@@ -226,10 +235,18 @@
           <div class="container">
             <div class="sectionfive__container__services">
               <div class="sectionfive__container__services__service order__2">
-                <h2>
-                  Multi-Post <br />
-                  Stories
-                </h2>
+                <div
+                  class="sectionfive__container__services__service__responsive"
+                >
+                  <img
+                    src="./static/imgs/two.png"
+                    alt="four"
+                    class="responsive sectionfive__container__services__service__responsive__respo"
+                  />
+                </div>
+              </div>
+              <div class="sectionfive__container__services__service order__1">
+                <h2>Multi-Post Stories</h2>
                 <ul class="first__ul">
                   <li>Uber</li>
                   <li class="disc">Lead Developer</li>
@@ -244,20 +261,8 @@
                   <li>Ruby</li>
                   <li>css</li>
                   <li>javaScript</li>
-                  <li class="clear"></li>
                 </ul>
                 <button class="hover">See Project</button>
-              </div>
-              <div class="sectionfive__container__services__service order__1">
-                <div
-                  class="sectionfive__container__services__service__responsive"
-                >
-                  <img
-                    src="./static/imgs/two.png"
-                    alt="four"
-                    class="responsive sectionfive__container__services__service__responsive__respo"
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -269,10 +274,7 @@
         <div class="container">
           <div class="sectionsix__container__skills">
             <div class="sectionsix__container__skills__skill">
-              <h2>
-                About <br />
-                Myself
-              </h2>
+              <h2>About Myself</h2>
               <p>
                 Hello I’m a software developer! I can help you build a product ,
                 feature or website Look through some of my work and experience!
@@ -337,23 +339,25 @@
                     ><img src="./static/imgs/down.png" alt="down"
                   /></span>
                 </li>
-                <ul class="content">
-                  <li class="flex">
-                    <img src="./static/imgs/js.png" alt="javaScript" /><span
-                      >javaScript</span
-                    >
-                  </li>
-                  <li class="flex">
-                    <img src="./static/imgs/html.png" alt="javaScript" /><span
-                      >HTML</span
-                    >
-                  </li>
-                  <li class="flex">
-                    <img src="./static/imgs/css.png" alt="javaScript" /><span
-                      >CSS</span
-                    >
-                  </li>
-                </ul>
+                <li>
+                  <ul class="content">
+                    <li class="flex">
+                      <img src="./static/imgs/js.png" alt="javaScript" /><span
+                        >javaScript</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/html.png" alt="html" /><span
+                        >HTML</span
+                      >
+                    </li>
+                    <li class="flex">
+                      <img src="./static/imgs/css.png" alt="css" /><span
+                        >CSS</span
+                      >
+                    </li>
+                  </ul>
+                </li>
 
                 <li>
                   Frameworks<span class="icon"
@@ -373,5 +377,69 @@
       </section>
     </main>
     <!-- end sectionsix -->
+    <!-- start footer -->
+    <div class="white">
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer__container__parfoot">
+            <h3>Contact me</h3>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+            <form action="https://formspree.io/f/mvoyalje" method="post">
+              <div class="form__control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="name"
+                  id="name"
+                  maxlength="30"
+                  required
+                  name="name"
+                />
+              </div>
+              <div class="form__control">
+                <label for="email">name@example.com</label>
+                <input
+                  type="email"
+                  placeholder="name@example.com"
+                  class="email"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="form__control">
+                <label for="textarea">Write your message here</label>
+                <textarea
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="textarea"
+                  id="textarea"
+                  placeholder="Write your message here"
+                  maxlength="500"
+                  name="textarea"
+                  required
+                ></textarea>
+              </div>
+              <div class="form__control">
+                <input
+                  type="submit"
+                  placeholder=""
+                  class="submit"
+                  id="submit"
+                  value="Get in touch"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- end footer -->
   </body>
 </html>

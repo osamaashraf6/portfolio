@@ -2,8 +2,9 @@
 
 # Portfolio.
 
+
 > This is Portfolio we did some changes with my collaborator .
->We replaced some lists which used flexbox with float position .
+> We replaced some lists which used flexbox with float position .
 
 
 ## Built With
@@ -16,6 +17,8 @@
 ## Live Demo 
 
 [Portfolio](https://osamaashraf6.github.io/portfolio/)
+
+
 
 
 ## Getting Started
