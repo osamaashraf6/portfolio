@@ -141,8 +141,35 @@ header {
 }
 
 .header__container__parhead__nav__ul__responsive {
-  width: 18px;
-  height: 12px;
+  width: 29px;
+  height: 20px;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
+.header__container__parhead__nav__ul__responsive.change > .bar__1 {
+  transform: translate(0, 6px) rotate(-45deg);
+  background-color: #fff;
+}
+
+.header__container__parhead__nav__ul__responsive.change > .bar__2 {
+  opacity: 0;
+  background-color: #fff;
+}
+
+.header__container__parhead__nav__ul__responsive.change > .bar__3 {
+  transform: translate(0, -11px) rotate(45deg);
+  background-color: #fff;
+}
+
+.header__container__parhead__nav__ul__responsive > .bar {
+  width: 100%;
+  height: 3.5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: hsl(242 88% 56% / 0.8);
+  transition: transform 0.5s, opacity 0.4s;
 }
 
 .first__ul {
@@ -176,6 +203,21 @@ header {
   display: none;
 }
 
+.header__container__parhead__nav__ul > li > .iwq.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6070fff5;
+  width: 100%;
+  padding: 41px;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
 .accordion > li {
   border: 0;
   outline: 0;
@@ -195,11 +237,13 @@ header {
 }
 
 .header__container__parhead__nav__ul > li > .iwq > li {
-  margin-right: 15px;
+  /* margin-right: 15px; */
+  font-size: 30px;
+  margin-bottom: 4px;
 }
 
 .header__container__parhead__nav__ul > li > .iwq > li > a {
-  color: hsl(242 88% 56% / 0.8);
+  color: #fff;
 }
 
 /* end nav */
@@ -487,11 +531,31 @@ header {
     width: 90%;
   }
 
+  .header__container__parhead__nav__ul > li > .iwq.show,
   .header__container__parhead__nav__ul > li > .iwq {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    font-size: 17px;
   }
 
-  .header__container__parhead__nav__ul > li > .iwq li:hover {
+  .header__container__parhead__nav__ul > li > .iwq > li,
+  .header__container__parhead__nav__ul > li > .iwq.show > li {
+    font-size: 16px;
+    margin-right: 15px;
+  }
+
+  .header__container__parhead__nav__ul > li > .iwq > li > a,
+  .header__container__parhead__nav__ul > li > .iwq.show > li > a {
+    color: hsl(242 88% 56% / 0.8);
+  }
+
+  .header__container__parhead__nav__ul > li > .iwq li:hover,
+  .header__container__parhead__nav__ul > li > .iwq.show li:hover {
     border-bottom: 1px solid #172b4d;
     transition: all 0.5s linear;
   }
