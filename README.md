@@ -2,12 +2,17 @@
 
 # Portfolio.
 
-> This branch (mobile__menu) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
-- [x] When the user clicks (or taps) the hamburger button, the mobile menu appears.
-- [x] When the user clicks (or taps) the close (X) button, the mobile menu disappears.
-- [x] When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.💯
-- [x] When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+> This branch (popup__details) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+
+-  When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+- When the user clicks (or taps) the close (X) button, the popup disappears.
+-  We used a JavaScript array to store all of the information for all projects.💯
+-  We stored the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to live version, link to source.
+-  We updated the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+-  We implemented popups for both mobile and desktop screen sizes:
+
+
 
 ## Built With
 
@@ -21,6 +26,9 @@
 - Use gitHub pages
 - Check the accessibility for this portfolio
 - Use the js DOM to close the mobile while clicking at the humburger icon
+- Use the javascript objects and arrays to store the data for every project.
+
+
 
 
 
