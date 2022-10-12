@@ -2,7 +2,17 @@
 
 # Portfolio.
 
-> In this branch (accessibility) I made the accessibility well in my portfolio. Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web. Web accessibility is essential for people with disabilities and useful for everyone in a variety of situations (e.g. people using a slow internet connection, older people with changing abilities due to ageing)..
+
+> This branch (popup__details) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+
+- [x] When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+- [x] When the user clicks (or taps) the close (X) button, the popup disappears.
+- [x] We used a JavaScript array to store all of the information for all projects.💯
+- [x] We stored the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to live version, link to source.
+- [x] We updated the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
+- [x] We implemented popups for both mobile and desktop screen sizes:
+
+
 
 ## Built With
 
@@ -15,6 +25,10 @@
 - Animation and Transition
 - Use gitHub pages
 - Check the accessibility for this portfolio
+- Use the js DOM to close the mobile while clicking at the humburger icon
+- Use the javascript objects and arrays to store the data for every project.
+
+
 
 
 
@@ -45,6 +59,9 @@ To get a local copy up and running follow these simple example steps.
 
 
 ## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
 
 **Contributer:** 
 - GitHub: [@Arkankovanabdullah](https://github.com/Arkankovanabdullah)
