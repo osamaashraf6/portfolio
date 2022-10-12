@@ -142,3 +142,10 @@ function detail(c) {
 function closes() {
   parpopup.style.display = 'none';
 }
+// ========================================================================
+// eslint-disable-next-line func-names
+window.onclick = function (event) {
+  if (event.target === parpopup) {
+    parpopup.style.display = 'none';
+  }
+};
