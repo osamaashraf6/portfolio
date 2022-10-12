@@ -255,6 +255,7 @@ header {
 
 .header__container__parhead__nav__ul > li > .iwq > li > a {
   color: #fff;
+  cursor: pointer;
 }
 
 /* end nav */

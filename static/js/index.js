@@ -79,11 +79,16 @@ const burger = document.querySelector(
   '.header__container__parhead__nav__ul__responsive',
 );
 const iwq = document.querySelector('.iwq');
+
 const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
 // ===========================================================================
+
+const navLinks = document.querySelectorAll('.mobile-nav-links');
+// ==================================================================================
+
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
     burger.classList.remove('change');
@@ -97,6 +102,7 @@ burger.addEventListener('click', () => {
     iwq.classList.add('show');
   }
 });
+
 // ============================================================================
 // eslint-disable-next-line no-unused-vars
 function detail(c) {
@@ -142,11 +148,15 @@ function closes() {
   parpopup.style.display = 'none';
 }
 // ========================================================================
+
+// ====================================================================================
+
 navLinks.forEach((item) => {
   item.addEventListener('click', () => {
     iwq.classList.remove('show');
     burger.classList.remove('change');
   });
+
 });
 // ========================================================================
 // eslint-disable-next-line func-names
@@ -155,3 +165,6 @@ window.onclick = function (event) {
     parpopup.style.display = 'none';
   }
 };
+
+});
+
