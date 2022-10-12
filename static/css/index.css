@@ -25,6 +25,7 @@ body {
   line-height: 1.428;
   background-color: #f7f7f9;
   position: relative;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -101,6 +102,10 @@ button,
   width: 1em;
   margin-left: 0;
   font-size: 23px;
+}
+
+.btns.live {
+  display: flex;
 }
 
 label {
@@ -252,7 +257,6 @@ header {
 }
 
 .header__container__parhead__nav__ul > li > .iwq > li {
-  /* margin-right: 15px; */
   font-size: 30px;
   margin-bottom: 4px;
 }
@@ -352,20 +356,27 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   display: none;
   justify-content: center;
+  align-items: center;
 }
 
 .parpopup__popup {
-  width: 84%;
+  width: 314px;
   background-color: #fff;
   border-radius: 5px;
-  padding: 32px;
+  padding: 30px;
+  height: fit-content;
 }
 
 .parpopup__popup > .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
+}
+
+.parpopup__popup > .head > .name {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .parpopup__popup > .head > span:nth-child(2) {
@@ -377,6 +388,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .parpopup__popup > ul > li:nth-child(2)::before,
@@ -396,8 +408,8 @@ header {
 }
 
 .popup__responsive {
-  height: 20vh;
-  margin-bottom: 6px;
+  height: 156px;
+  margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
 }
@@ -409,6 +421,7 @@ header {
 .parpopup__popup > .types {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 .sectiontwo__container__items__item > p,
@@ -426,7 +439,7 @@ header {
 }
 
 .parpopup__popup > .types > .type > p {
-  padding: 4px 1px;
+  padding: 4px 2px;
 }
 
 .parpopup__popup > .types > .type > ul {
@@ -464,13 +477,34 @@ header {
 
 .parpopup__popup > .types > .type > .btns > button {
   outline: 0;
-  padding: 13px;
+  padding: 6px;
   border-radius: 5px;
   background-color: #fff;
   border: 1px solid #396df2;
   color: #396df2;
   font-size: 17px;
-  margin-right: 1px;
+  margin-right: 17px;
+  width: 122px;
+}
+
+.parpopup__popup > .types > .type > .btns > button:hover {
+  background-color: hsl(242 88% 56% / 0.8);
+  color: #fff;
+}
+
+.parpopup__popup > .types > .type > .btns > button:hover .btns.live > .live img {
+  background-color: #fff;
+  border-radius: 9px;
+}
+
+.parpopup__popup > .types > .type > .btns > button:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.parpopup__popup > .types > .type > .btns > button:focus .btns.live > .live > img {
+  background-color: #fff;
+  border-radius: 9px;
 }
 
 /* end pop up */
@@ -692,7 +726,7 @@ header {
     border-radius: 5px;
     margin: 3px;
     color: hsl(242 88% 56% / 0.8);
-    padding: 3px 15px;
+    padding: 1px 11px;
   }
 
   .header__container__parhead__nav__ul > li > .iwq li:hover,
@@ -730,17 +764,16 @@ header {
   }
 
   .parpopup__popup {
-    width: 50%;
+    width: 582px;
     background-color: #fff;
     border-radius: 5px;
-    padding: 32px;
   }
 
   .parpopup__popup > .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: -6px;
   }
 
   .parpopup__popup > .head > span:nth-child(2) {
@@ -752,6 +785,7 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 15px;
   }
 
   .parpopup__popup > ul > li:nth-child(2)::before,
@@ -767,7 +801,7 @@ header {
 
   .popup__responsive {
     height: 46vh;
-    margin-bottom: 18px;
+    margin-bottom: 33px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
@@ -784,22 +818,25 @@ header {
   .parpopup__popup > .types > .type > ul {
     display: flex;
     align-items: center;
-    margin-bottom: 6px;
+    margin-bottom: 13px;
   }
 
   .parpopup__popup > .types > .type > hr {
-    margin-bottom: 1px;
+    margin-bottom: 12px;
+    margin-left: 3px;
+    background-color: #fff;
   }
 
   .parpopup__popup > .types > .type > .btns > button {
     outline: 0;
-    padding: 13px;
+    padding: 6px;
     border-radius: 5px;
     background-color: #fff;
     border: 1px solid #396df2;
     color: #396df2;
     font-size: 17px;
     margin: 2px;
+    width: 122px;
   }
 
   /* end pop up */

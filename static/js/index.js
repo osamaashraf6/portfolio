@@ -127,8 +127,8 @@ function detail(c) {
       <li>${update[0].lang.lang4}</li>
     </ul>
     <hr />
-    <div class="btns">
-      <button>See live</button><button>See source</button>
+    <div class="btns live">
+      <button class="live"><span>See live</span> <img src="static/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
     </div>
   </div>
 </div>
