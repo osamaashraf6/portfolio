@@ -2,7 +2,12 @@
 
 # Portfolio.
 
-> In this branch (accessibility) I made the accessibility well in my portfolio. Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can perceive, understand, navigate, and interact with the web. Web accessibility is essential for people with disabilities and useful for everyone in a variety of situations (e.g. people using a slow internet connection, older people with changing abilities due to ageing)..
+> This branch (mobile__menu) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+
+- [x] When the user clicks (or taps) the hamburger button, the mobile menu appears.
+- [x] When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+- [x] When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.💯
+- [x] When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
 ## Built With
 
@@ -15,6 +20,7 @@
 - Animation and Transition
 - Use gitHub pages
 - Check the accessibility for this portfolio
+- Use the js DOM to close the mobile while clicking at the humburger icon
 
 
 
