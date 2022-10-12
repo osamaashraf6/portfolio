@@ -48,6 +48,11 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
+
+**Contributer:** 
+- GitHub: [@Arkankovanabdullah](https://github.com/Arkankovanabdullah)
+- Twitter: [@arkan_kovan](https://twitter.com/Arkan_kovan)
+
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
