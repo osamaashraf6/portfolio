@@ -149,3 +149,9 @@ navLinks.forEach((item) => {
   });
 });
 // ========================================================================
+// eslint-disable-next-line func-names
+window.onclick = function (event) {
+  if (event.target === parpopup) {
+    parpopup.style.display = 'none';
+  }
+};
