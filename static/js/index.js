@@ -86,6 +86,7 @@ const navLinks = document.querySelectorAll('.mobile-nav-links');
 const email = document.querySelector('.form__control > input#email');
 const form = document.querySelector('form');
 const emailerror = document.querySelector('#emailerror');
+
 // ===========================================================================
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
@@ -130,8 +131,8 @@ function detail(c) {
       <li>${update[0].lang.lang4}</li>
     </ul>
     <hr />
-    <div class="btns">
-      <button>See live</button><button>See source</button>
+    <div class="btns live">
+      <button class="live"><span>See live</span> <img src="static/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
     </div>
   </div>
 </div>
@@ -159,8 +160,9 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-form.addEventListener('submit', () => {
+form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
     emailerror.style.opacity = '1';
   }
 });
