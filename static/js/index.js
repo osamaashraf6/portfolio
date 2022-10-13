@@ -159,8 +159,9 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-form.addEventListener('submit', () => {
+form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
     emailerror.style.opacity = '1';
   }
 });
