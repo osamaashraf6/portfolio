@@ -84,7 +84,7 @@ const parpopup = document.querySelector('.parpopup');
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
 const name = document.querySelector('.form__control > input#name');
-const email = document.querySelector('.form__control > input#email');
+const emailDefault = document.querySelector('.form__control > input#email');
 const textarea = document.querySelector('.form__control > textarea');
 const form = document.querySelector('form');
 const emailerror = document.querySelector('#emailerror');
@@ -170,6 +170,8 @@ window.onclick = function (event) {
 //   };
 //   localStorage.setItem('data', JSON.stringify(data));
 // });
+
+h3 = document.querySelectorAll('h3');
 form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
@@ -177,11 +179,14 @@ form.addEventListener('submit', (e) => {
   } else {
     const data = {
       name: name.value,
-      email: email.value,
+      email: emailDefault.value,
       textarea: textarea.value,
     };
     localStorage.setItem('data', JSON.stringify(data));
-    console.log(JSON.parse(localStorage.getItem('data')));
+    console.log(JSON.parse().localStorage.getItem('data').email);
+
+
+   
     // name.value = localStorage.getItem('data.name');
     // email.value = localStorage.getItem('data.email');
     // textarea.value = localStorage.getItem('data.textarea');
