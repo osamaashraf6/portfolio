@@ -21,4 +21,4 @@ const x = JSON.parse(localStorage.getItem('data'));
 name.value = x.name;
 email.value = x.email;
 textarea.value = x.textarea;
-// ========================================================================
+// =========================================================================
