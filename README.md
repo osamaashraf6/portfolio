@@ -3,14 +3,11 @@
 # Portfolio.
 
 
-> This branch (popup__details) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
-- [x] When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
-- [x] When the user clicks (or taps) the close (X) button, the popup disappears.
-- [x] We used a JavaScript array to store all of the information for all projects.💯
-- [x] We stored the following pieces of data in a JavaScript object, at a minimum: name, description, featured image, technologies, link to live version, link to source.
-- [x] We updated the main page so that the projects section is created dynamically using the information stored in that JavaScript object. Remember, all of the HTML in that section is created when the page loads.
-- [x] We implemented popups for both mobile and desktop screen sizes:
+> This branch (Contact__validation) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+
+-  When the user inputs his/her email in capitol letters and the website prevents them from submitting form, and shows an error. 
+
 
 
 
@@ -18,6 +15,7 @@
 
 - HTML
 - CSS
+- JavaScript
 - Flexbox
 - Figma
 - Formspree service
