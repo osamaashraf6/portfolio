@@ -83,11 +83,14 @@ const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
+<<<<<<< HEAD
 const name = document.querySelector('.form__control > input#name');
 const emailDefault = document.querySelector('.form__control > input#email');
 const textarea = document.querySelector('.form__control > textarea');
 const form = document.querySelector('form');
 const emailerror = document.querySelector('#emailerror');
+=======
+>>>>>>> 4e78412aff198ce98a84b409f7c5ae37e0742a28
 
 // ===========================================================================
 burger.addEventListener('click', () => {
@@ -162,6 +165,7 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
+<<<<<<< HEAD
 // form.addEventListener('change', () => {
 //   const data = {
 //     name: name.value,
@@ -193,3 +197,5 @@ form.addEventListener('submit', (e) => {
   }
 });
 // ========================================================================
+=======
+>>>>>>> 4e78412aff198ce98a84b409f7c5ae37e0742a28

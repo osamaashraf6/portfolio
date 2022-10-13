@@ -3,9 +3,9 @@
 # Portfolio.
 
 
-> This branch (Contact__validation) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+> This branch (local__storage) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
--  When the user inputs his/her email in capitol letters and the website prevents them from submitting form, and shows an error. 
+-  the values of the inputs from the form are stored in local storage, and if local storage has values they are assigned to the values of the input by default. 
 
 
 
@@ -68,8 +68,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
 
 ## 📝 License
 
