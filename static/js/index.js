@@ -83,14 +83,6 @@ const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
-<<<<<<< HEAD
-const name = document.querySelector('.form__control > input#name');
-const emailDefault = document.querySelector('.form__control > input#email');
-const textarea = document.querySelector('.form__control > textarea');
-const form = document.querySelector('form');
-const emailerror = document.querySelector('#emailerror');
-=======
->>>>>>> 4e78412aff198ce98a84b409f7c5ae37e0742a28
 
 // ===========================================================================
 burger.addEventListener('click', () => {
@@ -165,37 +157,3 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-<<<<<<< HEAD
-// form.addEventListener('change', () => {
-//   const data = {
-//     name: name.value,
-//     email: email.value,
-//     textarea: textarea.value,
-//   };
-//   localStorage.setItem('data', JSON.stringify(data));
-// });
-
-h3 = document.querySelectorAll('h3');
-form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    emailerror.style.opacity = '1';
-  } else {
-    const data = {
-      name: name.value,
-      email: emailDefault.value,
-      textarea: textarea.value,
-    };
-    localStorage.setItem('data', JSON.stringify(data));
-    console.log(JSON.parse().localStorage.getItem('data').email);
-
-
-   
-    // name.value = localStorage.getItem('data.name');
-    // email.value = localStorage.getItem('data.email');
-    // textarea.value = localStorage.getItem('data.textarea');
-  }
-});
-// ========================================================================
-=======
->>>>>>> 4e78412aff198ce98a84b409f7c5ae37e0742a28
