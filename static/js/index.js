@@ -83,7 +83,6 @@ const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
-
 // ===========================================================================
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
