@@ -106,7 +106,7 @@ burger.addEventListener('click', () => {
     iwq.classList.add('show');
   }
 });
-// ============================================================================
+// =============================================================================
 // eslint-disable-next-line no-unused-vars
 function detail(c) {
   parpopup.style.display = 'flex';
