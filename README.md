@@ -3,9 +3,11 @@
 # Portfolio.
 
 
+
 > This branch (Contact__validation) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
 -  When the user inputs his/her email in capitol letters and the website prevents them from submitting form, and shows an error. 
+
 
 
 
