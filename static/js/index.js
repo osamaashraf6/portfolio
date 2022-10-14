@@ -83,9 +83,6 @@ const parpopup = document.querySelector('.parpopup');
 // eslint-disable-next-line camelcase
 const parpopup__popup = document.querySelector('.parpopup__popup');
 const navLinks = document.querySelectorAll('.mobile-nav-links');
-const email = document.querySelector('.form__control > input#email');
-const form = document.querySelector('form');
-const emailerror = document.querySelector('#emailerror');
 // ===========================================================================
 burger.addEventListener('click', () => {
   if (burger.classList.contains('change')) {
@@ -100,7 +97,7 @@ burger.addEventListener('click', () => {
     iwq.classList.add('show');
   }
 });
-// ============================================================================
+// =============================================================================
 // eslint-disable-next-line no-unused-vars
 function detail(c) {
   parpopup.style.display = 'flex';
@@ -159,9 +156,3 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    emailerror.style.opacity = '1';
-  }
-});
