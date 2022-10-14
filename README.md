@@ -4,9 +4,16 @@
 
 
 
-> This branch (local__storage) I did it by contributing with my coding partner we did in this branch the followings 👌 :
+> This branch (debug__code) I did it by contributing with my coding partner we did in this branch the followings 👌 :
 
--  the values of the inputs from the form are stored in local storage, and if local storage has values they are assigned to the values of the input by default. 
+- I prepared a repository including some hidden bugs to be discovered.😊
+- I prepared the bugs,and my coding partner will clone my repository to debug it and make the issue.💯
+- My coding partner will open the project in the browser and debug it using developer tools.
+- My coding partner will fix the bug locally (He will not push any changes).
+- Once My coding partner has identified and understood the problem(s), He will open an issue in the repository, describing the bug and the possible solution.
+
+
+
 
 
 
@@ -25,9 +32,6 @@
 - Check the accessibility for this portfolio
 - Use the js DOM to close the mobile while clicking at the humburger icon
 - Use the javascript objects and arrays to store the data for every project.
-
-
-
 
 
 
