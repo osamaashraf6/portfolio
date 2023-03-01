@@ -1,14 +1,14 @@
 const details = [
   {
     id: 1,
-    title: 'Tonic',
+    title: 'leaderboard',
     list: {
-      list1: 'CANOPY',
-      list2: 'Back End Dev',
-      list3: '2015',
+      list1: 'Microverse',
+      list2: 'Frontend Developer',
+      list3: '2022',
     },
-    image: 'static/imgs/three.png',
-    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'static/imgs/leaderboard.png',
+    desc: 'This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new scores.',
     lang: {
       lang1: 'html',
       lang2: 'css',
@@ -16,17 +16,19 @@ const details = [
       lang4: 'ruby',
     },
     category: 'project1',
+    live: ' ',
+    source: 'https://github.com/osamaashraf6/Leaderboard',
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
+    title: 'Food__dishes',
     list: {
-      list1: 'FACEBOOK',
-      list2: 'Full Stack Dev',
-      list3: '2015',
+      list1: 'Microverse',
+      list2: 'Frontend Developer',
+      list3: '2022',
     },
-    image: 'static/imgs/four.png',
-    desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    image: 'static/imgs/food.png',
+    desc: 'This Web app displays a list of food dishes. The user is able to like any of the meals, and also read more information about each meal once he clicks on the Comment button. Also, the user is able to leave a comment about any meal..',
     lang: {
       lang1: 'html',
       lang2: 'Ruby',
@@ -34,17 +36,19 @@ const details = [
       lang4: 'javaScript',
     },
     category: 'project2',
+    live: ' ',
+    source: 'https://github.com/osamaashraf6/Capstone-Project-JavaScript',
   },
   {
     id: 3,
-    title: 'Facebook 360',
+    title: 'BookStore',
     list: {
-      list1: 'FACEBOOK',
-      list2: 'Full Stack Dev',
-      list3: '2015',
+      list1: 'Microverse',
+      list2: 'Frontend Developer',
+      list3: '2022',
     },
-    image: 'static/imgs/Snapshoot Portfolio.png',
-    desc: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    image: 'static/imgs/bookstore.png',
+    desc: 'A website which allows users to see the list of books, add a book to the list, and remove a book from the list..',
     lang: {
       lang1: 'html',
       lang2: 'Ruby',
@@ -52,17 +56,19 @@ const details = [
       lang4: 'javaScript',
     },
     category: 'project3',
+    live: ' ',
+    source: 'https://github.com/osamaashraf6/Bookstore',
   },
   {
     id: 4,
-    title: 'Uber',
+    title: 'Space X',
     list: {
-      list1: 'Uber',
-      list2: 'Lead Developer',
-      list3: '2015',
+      list1: 'Microverse',
+      list2: 'Frontend Developer',
+      list3: '2022',
     },
-    image: 'static/imgs/two.png',
-    desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    image: 'static/imgs/spacex.png',
+    desc: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions..',
     lang: {
       lang1: 'html',
       lang2: 'Ruby',
@@ -70,6 +76,8 @@ const details = [
       lang4: 'javaScript',
     },
     category: 'project4',
+    live: ' ',
+    source: 'https://github.com/osamaashraf6/Space-X-React-Group',
   },
 ];
 // eslint-disable-next-line no-plusplus
@@ -128,7 +136,7 @@ function detail(c) {
     </ul>
     <hr />
     <div class="btns live">
-      <button class="live"><span>See live</span> <img src="static/imgs/Icon.png"/></button><button class="live">See source <i class="fab fa-github"></i></button>
+      <button class="live"><a href="${update[0].live}"><span>See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}">See source <i class="fab fa-github"></i></a></button>
     </div>
   </div>
 </div>
