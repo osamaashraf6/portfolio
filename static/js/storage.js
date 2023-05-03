@@ -1,4 +1,4 @@
-const namea = document.querySelector('.form__control > input#name');
+const name = document.querySelector('.form__control > input#name');
 const email = document.querySelector('.form__control > input#email');
 const textarea = document.querySelector('.form__control > textarea');
 const form = document.querySelector('form');
@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
     emailerror.style.opacity = '1';
   } else {
     const data = {
-      name: namea.value,
+      name: name.value,
       email: email.value,
       textarea: textarea.value,
     };
@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
   }
 });
 const x = JSON.parse(localStorage.getItem('data'));
-namea.value = x.name;
+name.value = x.name;
 email.value = x.email;
 textarea.value = x.textarea;
 // =========================================================================
