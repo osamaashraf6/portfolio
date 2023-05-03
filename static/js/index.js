@@ -10,10 +10,10 @@ const details = [
     image: 'static/imgs/leaderboard.png',
     desc: 'This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new scores.',
     lang: {
-      lang1: 'html',
-      lang2: 'css',
-      lang3: 'js',
-      lang4: 'ruby',
+      lang1: 'HTML',
+      lang2: 'Css',
+      lang3: 'javaScript ES6',
+      lang4: 'API',
     },
     category: 'project1',
     live: ' ',
@@ -30,10 +30,10 @@ const details = [
     image: 'static/imgs/food.png',
     desc: 'This Web app displays a list of food dishes. The user is able to like any of the meals, and also read more information about each meal once he clicks on the Comment button. Also, the user is able to leave a comment about any meal..',
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: 'HTML',
+      lang2: 'Css',
+      lang3: 'javaScript',
+      lang4: 'API',
     },
     category: 'project2',
     live: ' ',
@@ -50,10 +50,10 @@ const details = [
     image: 'static/imgs/bookstore.png',
     desc: 'A website which allows users to see the list of books, add a book to the list, and remove a book from the list..',
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: 'HTML',
+      lang2: 'Css',
+      lang3: 'javaScript',
+      lang4: 'React',
     },
     category: 'project3',
     live: ' ',
@@ -70,13 +70,13 @@ const details = [
     image: 'static/imgs/spacex.png',
     desc: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions..',
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
+      lang1: 'HTML',
+      lang2: 'React',
+      lang3: 'Css',
       lang4: 'javaScript',
     },
     category: 'project4',
-    live: ' ',
+    live: 'https://space-x.onrender.com/',
     source: 'https://github.com/osamaashraf6/Space-X-React-Group',
   },
 ];
@@ -136,7 +136,7 @@ function detail(c) {
     </ul>
     <hr />
     <div class="btns live">
-      <button class="live"><a href="${update[0].live}"><span>See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}">See source <i class="fab fa-github"></i></a></button>
+      <button class="live"><a href="${update[0].live}" target="_blank"><span>See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}">See source <i class="fab fa-github"></i></a></button>
     </div>
   </div>
 </div>
@@ -164,3 +164,21 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
+// accord
+
+const acc = document.querySelectorAll('#accordion');
+let i;
+
+// eslint-disable-next-line no-plusplus
+for (i = 0; i < acc.length; i++) {
+  // eslint-disable-next-line func-names
+  acc[i].addEventListener('click', function () {
+    this.classList.toggle('active');
+    const panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = `${panel.scrollHeight + 55}px`;
+    }
+  });
+}
