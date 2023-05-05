@@ -10,10 +10,10 @@ const details = [
     image: 'https://media.istockphoto.com/id/1405787291/photo/panel-of-judges-holding-signs-with-highest-score-on-beige-background-closeup.jpg?s=2048x2048&w=is&k=20&c=-HiC1Qlqx5pgR9X9brJYlcMhtHHZvpRZB2kccLYg6dc=',
     desc: 'A leaderboard App using HTML, CSS, JavaScript, and APIs. This project aims to create a simple and intuitive interface that allows users to track their scores and compare their rankings with others, With a sleek and responsive design, the leaderboard is optimized for both desktop and mobile devices.',
     lang: {
-      lang1: 'HTML',
-      lang2: 'Css',
-      lang3: 'javaScript ES6',
-      lang4: 'API',
+      lang1: 'html',
+      lang2: 'css',
+      lang3: 'js',
+      lang4: 'ruby',
     },
     category: 'project1',
     live: 'https://leaderboards-9da2.onrender.com',
@@ -51,10 +51,10 @@ const details = [
     image: 'https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80',
     desc: 'An online Bookstore app built with React, Redux, CSS, and HTML. Users can browse books by category, add them to a cart, and proceed to checkout. The app features a search function, allowing users to search for books by title or author.',
     lang: {
-      lang1: 'HTML',
-      lang2: 'Css',
-      lang3: 'javaScript',
-      lang4: 'React',
+      lang1: 'html',
+      lang2: 'Ruby',
+      lang3: 'css',
+      lang4: 'javaScript',
     },
     category: 'project3',
     live: 'https://bookstore-yn94.onrender.com',
@@ -72,13 +72,13 @@ const details = [
     image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
     desc: 'A Space-X-React-Group app built with React, Redux, CSS, and HTML. Users can view information about the latest Space-X launches, rockets, and missions. The app also features a search function, allowing users to search for information about specific launches, rockets, or missions.',
     lang: {
-      lang1: 'HTML',
-      lang2: 'React',
-      lang3: 'Css',
+      lang1: 'html',
+      lang2: 'Ruby',
+      lang3: 'css',
       lang4: 'javaScript',
     },
     category: 'project4',
-    live: 'https://space-x.onrender.com/',
+    live: ' ',
     source: 'https://github.com/osamaashraf6/Space-X-React-Group',
   },
 ];
@@ -166,21 +166,3 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-// accord
-
-const acc = document.querySelectorAll('#accordion');
-let i;
-
-// eslint-disable-next-line no-plusplus
-for (i = 0; i < acc.length; i++) {
-  // eslint-disable-next-line func-names
-  acc[i].addEventListener('click', function () {
-    this.classList.toggle('active');
-    const panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = `${panel.scrollHeight + 55}px`;
-    }
-  });
-}
