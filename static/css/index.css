@@ -331,12 +331,14 @@ main {
   padding: 92px 24px 136px 24px;
   border-bottom-left-radius: 73px;
 }
-#title2{
+
+#title2 {
   color: #5a5ace;
-    font-size: 38px;
-    margin-bottom: 5px;
-    text-shadow: 3px 1px 6px;
+  font-size: 38px;
+  margin-bottom: 5px;
+  text-shadow: 3px 1px 6px;
 }
+
 .sectionone__heroimage > p,
 .sectionone__heroimage > h1 {
   margin-bottom: 15px;
@@ -581,7 +583,6 @@ img.responsive {
 
 .parpopup__popup > .types > .type > .btns > button:hover {
   background-color: hsl(242 88% 56% / 0.8);
-  background-color: hsl(242 88% 56% / 0.8);
 }
 
 .parpopup__popup > .types > .type > .btns > button:hover #fff,
@@ -589,14 +590,7 @@ img.responsive {
   color: #fff;
 }
 
-.parpopup__popup
-  > .types
-  > .type
-  > .btns
-  > button:hover
-  .btns.live
-  > .live
-  img {
+.parpopup__popup > .types > .type > .btns > button:hover .btns.live > .live img {
   background-color: #fff;
   border-radius: 9px;
 }
@@ -606,14 +600,7 @@ img.responsive {
   color: #fff;
 }
 
-.parpopup__popup
-  > .types
-  > .type
-  > .btns
-  > button:focus
-  .btns.live
-  > .live
-  > img {
+.parpopup__popup > .types > .type > .btns > button:focus .btns.live > .live > img {
   background-color: #fff;
   border-radius: 9px;
 }
