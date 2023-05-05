@@ -10,10 +10,10 @@ const details = [
     image: 'static/imgs/leaderboard.png',
     desc: 'This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new scores.',
     lang: {
-      lang1: 'HTML',
-      lang2: 'Css',
-      lang3: 'javaScript ES6',
-      lang4: 'API',
+      lang1: 'html',
+      lang2: 'css',
+      lang3: 'js',
+      lang4: 'ruby',
     },
     category: 'project1',
     live: 'https://leaderboards-9da2.onrender.com',
@@ -51,10 +51,10 @@ const details = [
     image: 'https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80',
     desc: 'A website which allows users to see the list of books, add a book to the list, and remove a book from the list..',
     lang: {
-      lang1: 'HTML',
-      lang2: 'Css',
-      lang3: 'javaScript',
-      lang4: 'React',
+      lang1: 'html',
+      lang2: 'Ruby',
+      lang3: 'css',
+      lang4: 'javaScript',
     },
     category: 'project3',
     live: 'https://bookstore-yn94.onrender.com',
@@ -72,13 +72,13 @@ const details = [
     image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
     desc: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions..',
     lang: {
-      lang1: 'HTML',
-      lang2: 'React',
-      lang3: 'Css',
+      lang1: 'html',
+      lang2: 'Ruby',
+      lang3: 'css',
       lang4: 'javaScript',
     },
     category: 'project4',
-    live: 'https://space-x.onrender.com/',
+    live: ' ',
     source: 'https://github.com/osamaashraf6/Space-X-React-Group',
   },
 ];
@@ -166,21 +166,3 @@ window.onclick = function (event) {
   }
 };
 // ========================================================================
-// accord
-
-const acc = document.querySelectorAll('#accordion');
-let i;
-
-// eslint-disable-next-line no-plusplus
-for (i = 0; i < acc.length; i++) {
-  // eslint-disable-next-line func-names
-  acc[i].addEventListener('click', function () {
-    this.classList.toggle('active');
-    const panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = `${panel.scrollHeight + 55}px`;
-    }
-  });
-}
