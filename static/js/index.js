@@ -7,8 +7,8 @@ const details = [
       list2: 'Frontend Developer',
       list3: '2022',
     },
-    image: 'static/imgs/leaderboard.png',
-    desc: 'This is a leaderboard app to displays scores submitted by different players, It is used API to get data and post new scores.',
+    image: 'https://media.istockphoto.com/id/1405787291/photo/panel-of-judges-holding-signs-with-highest-score-on-beige-background-closeup.jpg?s=2048x2048&w=is&k=20&c=-HiC1Qlqx5pgR9X9brJYlcMhtHHZvpRZB2kccLYg6dc=',
+    desc: 'A leaderboard App using HTML, CSS, JavaScript, and APIs. This project aims to create a simple and intuitive interface that allows users to track their scores and compare their rankings with others, With a sleek and responsive design, the leaderboard is optimized for both desktop and mobile devices.',
     lang: {
       lang1: 'html',
       lang2: 'css',
@@ -16,28 +16,28 @@ const details = [
       lang4: 'ruby',
     },
     category: 'project1',
-    live: ' ',
+    live: 'https://leaderboards-9da2.onrender.com',
     source: 'https://github.com/osamaashraf6/Leaderboard',
   },
   {
     id: 2,
-    title: 'Food__dishes',
+    title: 'Budget App',
     list: {
       list1: 'Microverse',
-      list2: 'Frontend Developer',
-      list3: '2022',
+      list2: 'FullStack Developer',
+      list3: '2023',
     },
-    image: 'static/imgs/food.png',
-    desc: 'This Web app displays a list of food dishes. The user is able to like any of the meals, and also read more information about each meal once he clicks on the Comment button. Also, the user is able to leave a comment about any meal..',
+    image: 'https://media.istockphoto.com/id/909979380/photo/hands-putting-coin-in-piggy-bank-concept-outdoors-summertime-family.jpg?s=2048x2048&w=is&k=20&c=DlW7LgEpJMc3lMGf55wxkvnLtCe_YpSbIA9mbq96Q14=',
+    desc: 'A budget management app built with Rails and Devise gem, with a clean and user-friendly interface designed with CSS and HTML. Users can create an account, log in, and manage their expenses and income. The app also features a dashboard displaying users current budget status, including charts and graphs that show the breakdown of their expenses',
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: 'Ruby on Rails',
+      lang2: 'Css',
+      lang3: 'Devise Gem',
+      lang4: 'cancancan Gem',
     },
     category: 'project2',
-    live: ' ',
-    source: 'https://github.com/osamaashraf6/Capstone-Project-JavaScript',
+    live: 'https://rails-m2sk.onrender.com/',
+    source: 'https://github.com/osamaashraf6/Budget-App/tree/dev',
   },
   {
     id: 3,
@@ -47,8 +47,9 @@ const details = [
       list2: 'Frontend Developer',
       list3: '2022',
     },
-    image: 'static/imgs/bookstore.png',
-    desc: 'A website which allows users to see the list of books, add a book to the list, and remove a book from the list..',
+    // image: 'static/imgs/bookstore.png',
+    image: 'https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80',
+    desc: 'An online Bookstore app built with React, Redux, CSS, and HTML. Users can browse books by category, add them to a cart, and proceed to checkout. The app features a search function, allowing users to search for books by title or author.',
     lang: {
       lang1: 'html',
       lang2: 'Ruby',
@@ -56,7 +57,7 @@ const details = [
       lang4: 'javaScript',
     },
     category: 'project3',
-    live: ' ',
+    live: 'https://bookstore-yn94.onrender.com',
     source: 'https://github.com/osamaashraf6/Bookstore',
   },
   {
@@ -67,8 +68,9 @@ const details = [
       list2: 'Frontend Developer',
       list3: '2022',
     },
-    image: 'static/imgs/spacex.png',
-    desc: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions..',
+    // image: 'static/imgs/spacex.png',
+    image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
+    desc: 'A Space-X-React-Group app built with React, Redux, CSS, and HTML. Users can view information about the latest Space-X launches, rockets, and missions. The app also features a search function, allowing users to search for information about specific launches, rockets, or missions.',
     lang: {
       lang1: 'html',
       lang2: 'Ruby',
@@ -136,7 +138,7 @@ function detail(c) {
     </ul>
     <hr />
     <div class="btns live">
-      <button class="live"><a href="${update[0].live}"><span>See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}">See source <i class="fab fa-github"></i></a></button>
+    <button class="live"><a href="${update[0].live}" target="_blank"><span id="fff">See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}" target="_blank" id="fffs">See source <i class="fab fa-github"></i></a></button>
     </div>
   </div>
 </div>
