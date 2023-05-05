@@ -132,6 +132,7 @@ section {
 .hover:hover,
 .wow.hover:hover {
   background-color: hsl(242 88% 56% / 0.8);
+  color: #fff;
 }
 
 .hover:focus,
@@ -177,6 +178,15 @@ a.project {
 /* start nav */
 header {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 0 10px #191c23;
+  z-index: 9999;
+}
+
+main {
+  margin-top: 72px;
 }
 
 .header__container__parhead {
@@ -565,6 +575,10 @@ img.responsive {
 
 .parpopup__popup > .types > .type > .btns > button:hover {
   background-color: hsl(242 88% 56% / 0.8);
+}
+
+.parpopup__popup > .types > .type > .btns > button:hover #fff,
+.parpopup__popup > .types > .type > .btns > button:hover #fffs {
   color: #fff;
 }
 
@@ -585,7 +599,6 @@ img.responsive {
 
 /* end pop up */
 
-.sectionfour__container__rows,
 .sectionfive__container__services {
   flex-direction: column;
   display: grid;
@@ -596,15 +609,18 @@ img.responsive {
   background-color: #fff;
   grid-template-rows: 0fr 1fr;
   box-shadow: 0 0 17px azure;
+  overflow-y: auto;
 }
 
 .sectiontwo__container__items,
+.sectionfour__container__rows,
 .sectionthree__container__posts {
   grid-template-rows: none;
   background-color: #fff;
   padding: 20px 20px 50px 20px;
   border-radius: 19px;
   box-shadow: 0 0 17px azure;
+  overflow-y: auto;
 }
 
 .sectiontwo__container__items__item__responsive,
