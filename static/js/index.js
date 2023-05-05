@@ -16,28 +16,28 @@ const details = [
       lang4: 'ruby',
     },
     category: 'project1',
-    live: ' ',
+    live: 'https://leaderboards-9da2.onrender.com',
     source: 'https://github.com/osamaashraf6/Leaderboard',
   },
   {
     id: 2,
-    title: 'Food__dishes',
+    title: 'Budget App',
     list: {
       list1: 'Microverse',
-      list2: 'Frontend Developer',
-      list3: '2022',
+      list2: 'FullStack Developer',
+      list3: '2023',
     },
-    image: 'static/imgs/food.png',
-    desc: 'This Web app displays a list of food dishes. The user is able to like any of the meals, and also read more information about each meal once he clicks on the Comment button. Also, the user is able to leave a comment about any meal..',
+    image: 'https://user-images.githubusercontent.com/83360636/236292979-c51cfa8d-f452-4400-9be5-99b443c5d796.png',
+    desc: 'A budget management app built with Rails and Devise gem, with a clean and user-friendly interface designed with CSS and HTML. Users can create an account, log in, and manage their expenses and income. The app also features a dashboard displaying users current budget status, including charts and graphs that show the breakdown of their expenses',
     lang: {
-      lang1: 'html',
-      lang2: 'Ruby',
-      lang3: 'css',
-      lang4: 'javaScript',
+      lang1: 'Ruby on Rails',
+      lang2: 'Css',
+      lang3: 'Devise Gem',
+      lang4: 'cancancan Gem',
     },
     category: 'project2',
-    live: ' ',
-    source: 'https://github.com/osamaashraf6/Capstone-Project-JavaScript',
+    live: 'https://rails-m2sk.onrender.com/',
+    source: 'https://github.com/osamaashraf6/Budget-App/tree/dev',
   },
   {
     id: 3,
@@ -47,7 +47,8 @@ const details = [
       list2: 'Frontend Developer',
       list3: '2022',
     },
-    image: 'static/imgs/bookstore.png',
+    // image: 'static/imgs/bookstore.png',
+    image: 'https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=449&q=80',
     desc: 'A website which allows users to see the list of books, add a book to the list, and remove a book from the list..',
     lang: {
       lang1: 'html',
@@ -56,7 +57,7 @@ const details = [
       lang4: 'javaScript',
     },
     category: 'project3',
-    live: ' ',
+    live: 'https://bookstore-yn94.onrender.com',
     source: 'https://github.com/osamaashraf6/Bookstore',
   },
   {
@@ -67,7 +68,8 @@ const details = [
       list2: 'Frontend Developer',
       list3: '2022',
     },
-    image: 'static/imgs/spacex.png',
+    // image: 'static/imgs/spacex.png',
+    image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80',
     desc: 'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions..',
     lang: {
       lang1: 'html',
@@ -136,7 +138,7 @@ function detail(c) {
     </ul>
     <hr />
     <div class="btns live">
-      <button class="live"><a href="${update[0].live}"><span>See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}">See source <i class="fab fa-github"></i></a></button>
+      <button class="live"><a href="${update[0].live}" target="_blank"><span id="fff">See live</span> <img src="static/imgs/Icon.png"/></a></button><button class="live"><a href="${update[0].source}" target="_blank" id="fffs">See source <i class="fab fa-github"></i></a></button>
     </div>
   </div>
 </div>
